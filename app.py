@@ -5,11 +5,11 @@ from PIL import Image
 
 st.set_page_config(
     page_title="Energy Consumption Forecaster",
-    page_icon="⚡",
+    
     layout="wide"
 )
 
-st.title("⚡ Energy Consumption Forecasting")
+st.title("Energy Consumption Forecasting")
 st.markdown("### LSTM-based forecasting across Indian states")
 st.markdown("---")
 
@@ -28,17 +28,17 @@ selected_region = st.sidebar.selectbox("Choose a state:", regions)
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader(f"📈 {selected_region} — Actual vs Predicted")
+    st.subheader(f" {selected_region} — Actual vs Predicted")
     pred_img = Image.open(f"plots/{selected_region}_predictions.png")
     st.image(pred_img, use_column_width=True)
 
 with col2:
-    st.subheader(f"📉 {selected_region} — Training Loss")
+    st.subheader(f" {selected_region} — Training Loss")
     loss_img = Image.open(f"plots/{selected_region}_loss.png")
     st.image(loss_img, use_column_width=True)
 
 st.markdown("---")
-st.subheader("🌍 All Regions Comparison")
+st.subheader(" All Regions Comparison")
 comparison_img = Image.open("plots/india_all_states_comparison.png")
 st.image(comparison_img, use_column_width=True)
 
