@@ -100,4 +100,4 @@ class SequenceDataLoader:
 if __name__ == "__main__":
     loader = SequenceDataLoader(seq_length=7)
     loader.load_cleaned_data()
-    data = loader.prepare_all_regions()
+    data = loader.prepare_all_regions() 
