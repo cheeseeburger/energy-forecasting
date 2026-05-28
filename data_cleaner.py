@@ -179,4 +179,4 @@ if __name__ == "__main__":
     cleaner = DataCleaner(data_dir='data')
     cleaner.run()
     cleaner.print_report()
-    cleaner.save_cleaned_data()
+    cleaner.save_cleaned_data() 
