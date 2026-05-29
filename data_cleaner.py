@@ -182,3 +182,4 @@ if __name__ == "__main__":
     cleaner.save_cleaned_data() 
 ## Outlier handling updated
 ## Timezone normalizer added
+## MinMaxScaler pipeline integrated
