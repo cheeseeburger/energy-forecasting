@@ -50,4 +50,4 @@ def compile_model(model, learning_rate=0.0005):
 if __name__ == "__main__":
     model = build_lstm_model(seq_length=30)
     model = compile_model(model)
-    model.summary()
+    model.summary() 
