@@ -39,4 +39,4 @@ for file in os.listdir('data'):
     if not numeric.empty:
         print(numeric.describe())
     else:
-        print("  No numeric columns found!")
+        print("  No numeric columns found!") 
