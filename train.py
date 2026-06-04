@@ -167,3 +167,4 @@ if __name__ == "__main__":
     trainer.print_training_summary()
 
 # conda activate tf-apple 
+## Dimensions patch applied
