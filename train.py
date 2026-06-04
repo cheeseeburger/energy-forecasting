@@ -168,3 +168,4 @@ if __name__ == "__main__":
 
 # conda activate tf-apple 
 ## Dimensions patch applied
+## Gradient clipping activated
