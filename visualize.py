@@ -271,4 +271,4 @@ class EnergyVisualizer:
 
 
 if __name__ == "__main__":
-    print("Run train.py first — visualizations auto-generate at the end!")
+    print("Run train.py first — visualizations auto-generate at the end!") 
