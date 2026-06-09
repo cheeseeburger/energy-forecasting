@@ -49,4 +49,4 @@ if st.sidebar.checkbox("Show cleaned data"):
         df = pd.read_csv(cleaned_file)
         st.subheader(f"📊 {selected_region} — Cleaned Dataset")
         st.dataframe(df.head(100))
-        st.write(f"Total rows: {len(df):,}")
+        st.write(f"Total rows: {len(df):,}") 
